@@ -1,0 +1,204 @@
+2021-09-26 17:39:57,254 INFO    MainThread:217818 [internal.py:wandb_internal():89] W&B internal server running at pid: 217818, started at: 2021-09-26 17:39:57.254382
+2021-09-26 17:39:57,256 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: check_version
+2021-09-26 17:39:57,256 INFO    WriterThread:217818 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/run-74j6mazg.wandb
+2021-09-26 17:39:57,258 DEBUG   SenderThread:217818 [sender.py:send():182] send: header
+2021-09-26 17:39:57,258 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: check_version
+2021-09-26 17:39:57,625 DEBUG   SenderThread:217818 [sender.py:send():182] send: run
+2021-09-26 17:39:57,630 DEBUG   SenderThread:217818 [git.py:repo():33] git repository is invalid
+2021-09-26 17:39:58,164 INFO    SenderThread:217818 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files
+2021-09-26 17:39:58,164 INFO    SenderThread:217818 [sender.py:_start_run_threads():743] run started: 74j6mazg with start time 1632658196
+2021-09-26 17:39:58,164 DEBUG   SenderThread:217818 [sender.py:send():182] send: summary
+2021-09-26 17:39:58,164 INFO    SenderThread:217818 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-26 17:39:58,165 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: run_start
+2021-09-26 17:39:58,178 DEBUG   HandlerThread:217818 [meta.py:__init__():40] meta init
+2021-09-26 17:39:58,178 DEBUG   HandlerThread:217818 [meta.py:__init__():54] meta init done
+2021-09-26 17:39:58,178 DEBUG   HandlerThread:217818 [meta.py:probe():211] probe
+2021-09-26 17:39:58,186 DEBUG   HandlerThread:217818 [git.py:repo():33] git repository is invalid
+2021-09-26 17:39:58,186 DEBUG   HandlerThread:217818 [meta.py:_save_code():90] save code
+2021-09-26 17:39:58,186 WARNING HandlerThread:217818 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-26 17:39:58,186 DEBUG   HandlerThread:217818 [meta.py:_save_pip():58] save pip
+2021-09-26 17:39:58,186 DEBUG   HandlerThread:217818 [meta.py:_save_pip():72] save pip done
+2021-09-26 17:39:58,186 DEBUG   HandlerThread:217818 [meta.py:_save_conda():79] save conda
+2021-09-26 17:39:59,167 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/requirements.txt
+2021-09-26 17:39:59,167 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/conda-environment.yaml
+2021-09-26 17:39:59,168 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-summary.json
+2021-09-26 17:40:04,170 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/output.log
+2021-09-26 17:40:05,869 DEBUG   HandlerThread:217818 [meta.py:_save_conda():87] save conda done
+2021-09-26 17:40:05,870 DEBUG   HandlerThread:217818 [meta.py:probe():249] probe done
+2021-09-26 17:40:06,172 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/output.log
+2021-09-26 17:40:06,172 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/conda-environment.yaml
+2021-09-26 17:40:06,172 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-metadata.json
+2021-09-26 17:40:06,190 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:40:06,190 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-26 17:40:06,190 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:40:06,190 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: pause
+2021-09-26 17:40:06,196 INFO    HandlerThread:217818 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-26 17:40:06,660 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: log_artifact
+2021-09-26 17:40:09,673 INFO    Thread-12 :217818 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/2f/6ecd1576185d565909dba9a32409f0
+2021-09-26 17:40:11,674 DEBUG   SenderThread:217818 [sender.py:send():182] send: files
+2021-09-26 17:40:11,678 INFO    SenderThread:217818 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-26 17:40:11,679 DEBUG   SenderThread:217818 [sender.py:send():182] send: stats
+2021-09-26 17:40:12,848 INFO    Thread-13 :217818 [upload_job.py:push():137] Uploaded file /tmp/tmp5ui78x2dwandb/3jymm9mn-wandb-metadata.json
+2021-09-26 17:40:21,661 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:40:21,661 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:40:37,158 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:40:37,159 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:40:52,644 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:40:52,644 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:41:08,144 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:41:08,144 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:41:23,642 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:41:23,642 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:41:39,136 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:41:39,137 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:41:54,612 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:41:54,612 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:42:10,080 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:42:10,080 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:42:25,545 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:42:25,545 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:42:41,010 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:42:41,011 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:42:56,495 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:42:56,495 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:43:11,971 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:43:11,971 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:43:27,475 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-26 17:43:27,475 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: stop_status
+2021-09-26 17:43:33,863 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: resume
+2021-09-26 17:43:33,864 INFO    HandlerThread:217818 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-26 17:43:33,881 DEBUG   SenderThread:217818 [sender.py:send():182] send: config
+2021-09-26 17:43:34,252 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/code/_session_history.ipynb
+2021-09-26 17:43:34,252 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/code
+2021-09-26 17:43:34,375 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-26 17:43:34,395 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: log_artifact
+2021-09-26 17:43:34,915 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:35,252 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/config.yaml
+2021-09-26 17:43:35,252 INFO    Thread-8  :217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/output.log
+2021-09-26 17:43:37,284 INFO    Thread-17 :217818 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/2f/04be9b105bf41c41b0a95c0b68584c
+2021-09-26 17:43:37,293 INFO    Thread-16 :217818 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/3f/b7f1de519581cd854636b96f8fb628
+2021-09-26 17:43:39,454 DEBUG   SenderThread:217818 [sender.py:send():182] send: telemetry
+2021-09-26 17:43:39,454 DEBUG   SenderThread:217818 [sender.py:send():182] send: exit
+2021-09-26 17:43:39,454 INFO    SenderThread:217818 [sender.py:send_exit():291] handling exit code: 0
+2021-09-26 17:43:39,454 INFO    SenderThread:217818 [sender.py:send_exit():293] handling runtime: 9
+2021-09-26 17:43:39,458 INFO    SenderThread:217818 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-26 17:43:39,458 INFO    SenderThread:217818 [sender.py:send_exit():303] send defer
+2021-09-26 17:43:39,458 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:39,459 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:39,459 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-26 17:43:39,459 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:39,459 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-26 17:43:39,459 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 1
+2021-09-26 17:43:39,459 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:39,459 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-26 17:43:39,536 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:39,536 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-26 17:43:39,536 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 2
+2021-09-26 17:43:39,536 DEBUG   SenderThread:217818 [sender.py:send():182] send: stats
+2021-09-26 17:43:39,536 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:39,537 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-26 17:43:39,537 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:39,537 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-26 17:43:39,537 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 3
+2021-09-26 17:43:39,537 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:39,537 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-26 17:43:39,537 DEBUG   SenderThread:217818 [sender.py:send():182] send: summary
+2021-09-26 17:43:39,538 INFO    SenderThread:217818 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-26 17:43:39,538 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:39,538 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-26 17:43:39,538 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 4
+2021-09-26 17:43:39,538 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:39,538 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-26 17:43:39,538 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:39,538 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-26 17:43:39,563 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,062 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 5
+2021-09-26 17:43:40,062 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,063 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:40,063 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-26 17:43:40,063 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:40,063 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-26 17:43:40,063 INFO    SenderThread:217818 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-26 17:43:40,164 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,255 INFO    SenderThread:217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/config.yaml
+2021-09-26 17:43:40,255 INFO    SenderThread:217818 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-summary.json
+2021-09-26 17:43:40,255 INFO    SenderThread:217818 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files
+2021-09-26 17:43:40,255 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/requirements.txt requirements.txt
+2021-09-26 17:43:40,256 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-metadata.json wandb-metadata.json
+2021-09-26 17:43:40,256 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/output.log output.log
+2021-09-26 17:43:40,256 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/conda-environment.yaml conda-environment.yaml
+2021-09-26 17:43:40,256 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-summary.json wandb-summary.json
+2021-09-26 17:43:40,256 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/config.yaml config.yaml
+2021-09-26 17:43:40,287 INFO    SenderThread:217818 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-09-26 17:43:40,287 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 6
+2021-09-26 17:43:40,287 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,287 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:40,288 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-26 17:43:40,291 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:40,291 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-26 17:43:40,291 INFO    SenderThread:217818 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-26 17:43:40,390 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,390 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,491 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,492 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,593 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,593 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,695 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,695 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,798 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,799 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:40,901 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:40,901 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,002 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,003 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,104 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,104 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,206 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,206 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,308 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,308 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,409 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,409 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,505 INFO    Thread-18 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/requirements.txt
+2021-09-26 17:43:41,511 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,511 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,571 INFO    Thread-19 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/output.log
+2021-09-26 17:43:41,571 INFO    Thread-22 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/config.yaml
+2021-09-26 17:43:41,572 INFO    Thread-21 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/wandb-summary.json
+2021-09-26 17:43:41,578 INFO    Thread-23 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/code/_session_history.ipynb
+2021-09-26 17:43:41,612 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,613 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,614 INFO    Thread-20 :217818 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/files/conda-environment.yaml
+2021-09-26 17:43:41,714 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:41,714 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:41,815 INFO    Thread-7  :217818 [sender.py:transition_state():316] send defer: 7
+2021-09-26 17:43:41,815 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:41,815 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-26 17:43:41,815 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:41,815 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-26 17:43:41,815 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:42,559 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 8
+2021-09-26 17:43:42,559 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:42,560 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:42,560 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-26 17:43:42,560 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:42,560 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-26 17:43:42,560 INFO    SenderThread:217818 [sender.py:transition_state():316] send defer: 9
+2021-09-26 17:43:42,560 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: defer
+2021-09-26 17:43:42,561 DEBUG   SenderThread:217818 [sender.py:send():182] send: final
+2021-09-26 17:43:42,561 INFO    HandlerThread:217818 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-26 17:43:42,561 DEBUG   SenderThread:217818 [sender.py:send():182] send: footer
+2021-09-26 17:43:42,561 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: defer
+2021-09-26 17:43:42,561 INFO    SenderThread:217818 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-26 17:43:42,661 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-26 17:43:42,661 DEBUG   SenderThread:217818 [sender.py:send_request():196] send_request: poll_exit
+2021-09-26 17:43:42,661 INFO    SenderThread:217818 [file_pusher.py:join():182] waiting for file pusher
+2021-09-26 17:43:42,663 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-26 17:43:42,663 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-26 17:43:42,664 DEBUG   HandlerThread:217818 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-26 17:43:42,664 INFO    HandlerThread:217818 [handler.py:finish():683] shutting down handler
+2021-09-26 17:43:43,561 INFO    WriterThread:217818 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Car-Body-Type-Data/wandb/run-20210926_173956-74j6mazg/run-74j6mazg.wandb
+2021-09-26 17:43:43,661 INFO    SenderThread:217818 [sender.py:finish():979] shutting down sender
+2021-09-26 17:43:43,662 INFO    SenderThread:217818 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-26 17:43:43,662 INFO    SenderThread:217818 [file_pusher.py:join():182] waiting for file pusher
+2021-09-26 17:43:43,662 INFO    MainThread:217818 [internal.py:handle_exit():76] Internal process exited
